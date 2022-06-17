@@ -83,6 +83,9 @@ body{
     border-radius: 20px;
     background-color:  rgba(9, 11, 15, 0.9);
     border: 1px solid white;
+    position: relative;
+    left:70%;
+    top:30%;
     
     
 
