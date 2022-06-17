@@ -10,6 +10,15 @@ main{
     height: calc(100vh - 85px);
 }
 
+.title{
+    color: white;
+    padding: 10px;
+}
+
+.card img{
+    width:100%;
+}
+
 /* sidebar */
 .sidebar{
         
@@ -42,7 +51,40 @@ main{
     background-color:  rgba(9, 11, 15, 0.9);
     position: fixed;
     top: 0;
-   width: 100%;
+    width: 100%;
+    
+    
+}
+
+.top button a{
+    color:white;
+    padding: 10px 5px;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+.top button{
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:  rgba(9, 11, 15, 0.9);
+    border: 1px solid white;
+    
+    
+
+}
+
+.main-menu li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.main-menu ul{
+    text-align: center;
 }
 
 .main-menu{
