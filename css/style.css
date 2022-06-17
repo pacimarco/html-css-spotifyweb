@@ -3,3 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole comuni */
+main{
+    display: flex;
+    height: calc(100vh - 85px);
+}
+
+/* sidebar */
+.sidebar{
+        
+    width: 230px;
+    height: calc(100vh - 85px);
+    background: black;
+    
+    
+}
+.main-container{
+    
+    
+    
+    max-width: calc(100vw - 230px);
+    height: calc(100vh - 85px);
+    background: white;
+    overflow: scroll;
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 85px;
+    
+    
+    
+}
+
+.top{
+    height: 85px;
+    max-width: 100%;
+    background-color:  rgba(9, 11, 15, 0.9);
+    position: fixed;
+    top: 0;
+   width: 100%;
+}
+
+.main-menu{
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.recently-title{
+    height: 60px;
+    background-color: aqua;
+}
+
+.album-1, .album-2 ,.album-3{
+    height: 280px;
+    background-color: rgb(0, 255, 51);
+    display: flex;
+}
+
+.card{
+    width: calc(90% / 6);
+    margin-left: calc(5% / 6);
+    margin-right: calc(5% / 6);
+    height: 100%;
+    background-color: rgb(255, 208, 0);
+}
+
+.doe, .artist{
+    height: 80px;
+    background-color: rgb(255, 0, 85);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    height: 85px;
+}
+
+.footer-sx , .footer-rx{
+    width: 25%;
+    background-color: blue;
+}
+
+.footer-center{
+    width: 50%;
+    background-color: red;
+}
