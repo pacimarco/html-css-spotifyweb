@@ -156,9 +156,81 @@ footer{
 .footer-sx , .footer-rx{
     width: 25%;
     background-color: blue;
+    display: flex;
 }
 
 .footer-center{
     width: 50%;
     background-color: red;
+}
+
+.audio-play{
+    height: 50%;
+}
+
+.audio-play li{
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+.audio-play li a{
+    color: white;
+    
+}
+
+.audio-play ul{
+    text-align: center;
+    margin: auto 0;
+}
+
+.time-song{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.time-song .title{
+    font-size: 8px;
+}
+
+.time-1{
+    width:60px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 27px;
+}
+
+.time-2{
+    width:160px;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 27px;
+}
+
+.img-footer-sx img{
+    width: 70%;
+    height: 70%;
+    margin:15%;
+    
+    
+    
+    
+}
+
+.img-footer-sx{
+    width:30%;
+   
+}
+
+.name-audio{
+    margin: auto 0;
+}
+
+.preferiti a{
+    color: white;
+    text-decoration: none;
+    line-height: 85px;
+    margin-left: 10px;
+    
 }
