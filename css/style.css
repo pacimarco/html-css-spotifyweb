@@ -33,6 +33,16 @@ body{
     width:100%;
 }
 
+.rounded{
+    border-radius: 50%;
+}
+
+.rounded img{
+    width:100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
 /* sidebar */
 .sidebar{
         
