@@ -52,6 +52,38 @@ body{
     
     
 }
+
+.sidebar img{
+    width: 10px;
+}
+
+.logo-spotify{
+    display: flex;
+}
+
+.sidebar li{
+    color: gray;
+    font-size: 10px;
+    padding: 7px;
+    
+}
+.sidebar ul{
+    margin-top: 10px;
+}
+.sidebar a{
+    color: gray;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sidebar .plus{
+    margin-left: 15px;
+}
+
+.sidebar span{
+    font-size: 10px;
+}
+/* main content */
 .main-container{
     
     
