@@ -159,6 +159,33 @@ footer{
     display: flex;
 }
 
+.footer-rx{
+    align-items: center;
+}
+
+.footer-rx li{
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+.footer-rx .time-2{
+    width: 90px;
+    margin-top: 27px;
+}
+
+.footer-rx .time-1{
+    margin-top: 27px;
+}
+
+
+
+.footer-rx li a{
+    color: white;
+}
+
 .footer-center{
     width: 50%;
     background-color: red;
