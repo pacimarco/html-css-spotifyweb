@@ -177,7 +177,7 @@ body{
     
     background-color: rgb(16, 19, 25);
     display: flex;
-    flex-wrap: wrap; /*controllare responsive*/
+    flex-wrap: wrap; 
 }
 
 .card{
@@ -357,4 +357,9 @@ footer{
         display: none;
     }
 }
-    
+   
+@media all and (max-height: 540px ){  /*controllare responsive, sembra non rispondere*/
+    .playlist{
+        overflow-y: scroll;
+    }
+}
