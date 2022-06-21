@@ -449,13 +449,17 @@ footer .preferiti a:hover{
     cursor: default;
 } 
 
-.playlist ul:hover{  /*hover playlist ?????*/
+.playlist .subtitle:hover{  
+    color: white;
+    cursor: default;
+}
+.playlist .plus:hover{
     color: white;
     cursor: default;
 }
 
 .time-1:hover{
-    border-bottom:2px solid white;
+    border-bottom:2px solid greenyellow;
     cursor: default;
 }
 
@@ -508,4 +512,19 @@ footer .preferiti a:hover{
 
 .play-hover span:hover{
     color: white;
+}
+
+.play-effect:hover{
+    
+    font-size: 13px;
+}
+
+.bottom-side .subtitle:hover{
+    color: white;
+    cursor: default;
+}
+
+.top button:hover{
+    width: 180px;
+    height: 40px;
 }
