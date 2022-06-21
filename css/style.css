@@ -133,6 +133,9 @@ body{
 .playlist ul{
     overflow-y: auto;
 }
+
+
+
 /* main content */
 .main-container{
     
@@ -190,6 +193,13 @@ body{
     text-decoration: none;
     color: gray;
     
+    
+}
+
+.main-menu li:hover{        /*hover main-menu navbar*/
+    border-bottom: 3px solid greenyellow ;
+    color: white;
+    cursor: default;
 }
 
 .main-menu ul{
@@ -339,7 +349,7 @@ footer{
 }
 
 .preferiti a{
-    color: white;
+    color: lightgray;
     text-decoration: none;
     line-height: 85px;
     margin-left: 10px;
@@ -415,3 +425,73 @@ footer{
     display: block;
 } 
   ho dato 100% invece di px ma sparisce img*/
+
+  /*hover effects*/
+  
+.sidebar .menu-side li span:hover{
+    
+    color: white;
+    cursor: default;
+}
+
+.sidebar .menu-side li a:hover{
+    color: white;
+    cursor: default;
+}
+
+footer .name-audio .subtitle:hover{
+    color: white;
+    cursor: default;
+}
+
+footer .preferiti a:hover{
+    color: white;
+    cursor: default;
+} 
+
+.playlist ul:hover{  /*hover playlist ?????*/
+    color: white;
+    cursor: default;
+}
+
+.time-1:hover{
+    border-bottom:2px solid white;
+    cursor: default;
+}
+
+.play-hover{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 111px;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 111px;
+    
+    
+    
+    
+}
+
+.play-hover:hover{
+    background-color: rgba(10, 11, 15, 0.6);
+}
+
+.play-hover span{ 
+    
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    
+}
+
+.play-hover span:hover{
+    color: white;
+}
