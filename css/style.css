@@ -472,7 +472,7 @@ footer .preferiti a:hover{
     align-items: center;
     
     width: 100%;
-    height:70%;
+    
     
     background-color: transparent;
     text-align: center;
@@ -482,6 +482,10 @@ footer .preferiti a:hover{
     
     
     
+}
+
+.overlay{
+    position: relative;
 }
 
 .play-hover:hover{
